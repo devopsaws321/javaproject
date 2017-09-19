@@ -53,6 +53,8 @@
           </arguments>
 	 </configuration>
       </plugin>
+</plugins>
+ </build>
 
   <dependencies>
     <dependency>
@@ -62,7 +64,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</plugins>
-</build>
-
 </project>

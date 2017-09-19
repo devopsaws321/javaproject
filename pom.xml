@@ -23,10 +23,11 @@
             <phase> package</phase>
             <configuration>
               <target>
+		<task>
+                 <echo> "hello project "</echo>
+                </task>
+
               </target>
-	      <task> 
-		<echo> "hello project "</echo>
-              </task> 
 	</configuration>
             <goals>
               <goal>run</goal>

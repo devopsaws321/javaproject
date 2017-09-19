@@ -23,9 +23,11 @@
             <phase> complie </phase>
             <configuration>
               <target>
-                 <echo> "hello project "</echo>
               </target>
-            </configuration>
+	      <task> 
+		<echo> "hello project "</echo>
+              </task> 
+	</configuration>
             <goals>
               <goal>run</goal>
             </goals>

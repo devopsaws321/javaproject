@@ -23,9 +23,7 @@
             <phase> package</phase>
             <configuration>
               <target>
-		<task>
                  <echo> "hello project "</echo>
-                </task>
 
               </target>
 	</configuration>

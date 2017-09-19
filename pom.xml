@@ -20,7 +20,7 @@
         <version>1.8</version>
         <executions>
           <execution>
-            <phase> complie </phase>
+            <phase> package</phase>
             <configuration>
               <target>
               </target>

@@ -3,7 +3,6 @@ node{
      git 'https://github.com/devopsaws321/javaproject.git'
   }
   stage('Compile-Package'){
-      // Get maven home path
-     bat 'mvn clean package'
-  }
+     mvn clean package
  }
+}

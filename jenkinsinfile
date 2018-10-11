@@ -2,7 +2,9 @@ node{
   stage('SCM Checkout'){
      git 'https://github.com/devopsaws321/javaproject.git'
   }
-  stage('Compile-Package'){
-     D:\DEVOPS\apache-maven-3.5.0\bin\mvn clean
+  stage('Email notification'){
+     mail bcc: '', body: '''hello wellome to jenkins pipeline job
+     Thanks
+     Vamsikrishna''', cc: '', from: '', replyTo: '', subject: 'jenkins-job', to: 'vamsi.mangadu@gmail.com'
  }
 }

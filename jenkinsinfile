@@ -3,6 +3,6 @@ node{
      git 'https://github.com/devopsaws321/javaproject.git'
   }
   stage('Compile-Package'){
-     mvn clean package
+     D:\DEVOPS\apache-maven-3.5.0\bin\mvn clean
  }
 }

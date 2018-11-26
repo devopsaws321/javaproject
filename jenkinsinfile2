@@ -3,7 +3,8 @@ node{
       git 'https://github.com/devopsaws321/javaproject'
     }
     stage('Compile-package'){
-      sh 'mvn package'
+      def mvnHome = tool name: 'Maven', type: 'maven'
+      sh "${mvnHome}/bin/mvn package"
     }
     
 }

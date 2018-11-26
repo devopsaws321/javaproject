@@ -1,0 +1,9 @@
+node{
+    stage('SCM Checkout'){
+      git 'https://github.com/devopsaws321/javaproject'
+    }
+    stage('Compile-package'){
+      sh 'mvn package'
+    }
+    
+}
